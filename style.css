@@ -47,7 +47,6 @@ a {
   width: 15%;
   text-align: center;
   background-color: rgba (220, 220, 220 0.5);
-  transition: all 7s;
   margin-right: 5px;
   margin-left: 5px;
 }
@@ -313,7 +312,7 @@ footer {
   box-shadow: 4px 4px 4px #ffd700;
 }
 
-.about-pict:hover {
+.about-pict img:hover {
   box-shadow: none;
   opacity: 1;
   cursor: pointer;
@@ -351,10 +350,14 @@ header li {
   font-family: 'franklin gothic medium';
   color: #f5f5f5;
   width: 300px;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 .header-list a:hover {
   color: #ffd700;
 
+}
+
+.menu-icon {
+  display: none;
 }
